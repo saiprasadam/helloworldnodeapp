@@ -7,7 +7,7 @@ var server = http.createServer(function(request, response) {
 
 });
 
-var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080 ;
 server.listen(port);
 
 console.log("Server running at http://localhost:%d", port);
